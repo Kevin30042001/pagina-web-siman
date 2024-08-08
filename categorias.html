@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMAN - Categorías</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://res.cloudinary.com/dfnm112ae/image/upload/v1723070414/SIMAN/zzndjtez89syxchklyqj.jpg" alt="SIMAN">
+        </div>
+       
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar productos...">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+        
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <i class="fas fa-bars"></i>
+        </label>
+           
+        <div class="content-shopping-cart">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="text">Carrito</span>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="Productos.html">Productos</a>
+        <a href="categorias.html">Categorías</a>
+        <a href="ofertas.html">Ofertas</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+
+    <main>
+        <section class="hero">
+            <h1>Explora Nuestras Categorías</h1>
+            <p>Descubre una amplia gama de productos de alta calidad para todos tus gustos y necesidades</p>
+        </section>
+
+        <div class="categories-container">
+            <div class="category-filter">
+                <a href="#todas" class="filter-btn">Todas</a>
+                <a href="#moda" class="filter-btn">Moda</a>
+                <a href="#electronica" class="filter-btn">Electrónica</a>
+                <a href="#hogar" class="filter-btn">Hogar</a>
+                <a href="#belleza" class="filter-btn">Belleza</a>
+                <a href="#deportes" class="filter-btn">Deportes</a>
+            </div>
+
+            <div class="categories-grid">
+                <a href="#moda" class="category-item">
+                    <img src="https://res.cloudinary.com/dfnm112ae/image/upload/v1723070414/SIMAN/fkc4qgv3bxpwq7dd1iqi.webp" alt="Moda" class="category-image">
+                    <div class="category-overlay">
+                        <h3 class="category-title">Moda</h3>
+                        <p class="category-description">Las últimas tendencias en ropa y accesorios</p>
+                    </div>
+                    <span class="category-count">1500+ productos</span>
+                </a>
+                <a href="#electronica" class="category-item">
+                    <img src="https://res.cloudinary.com/dfnm112ae/image/upload/v1723070415/SIMAN/c4tt8digunj0hix22ddb.webp" alt="Electrónica" class="category-image">
+                    <div class="category-overlay">
+                        <h3 class="category-title">Electrónica</h3>
+                        <p class="category-description">Dispositivos innovadores para tu estilo de vida digital</p>
+                    </div>
+                    <span class="category-count">800+ productos</span>
+                </a>
+                <a href="#hogar" class="category-item">
+                    <img src="https://res.cloudinary.com/dfnm112ae/image/upload/v1723070414/SIMAN/gqn29amupmxlk9r8rnqj.webp" alt="Hogar" class="category-image">
+                    <div class="category-overlay">
+                        <h3 class="category-title">Hogar</h3>
+                        <p class="category-description">Todo lo que necesitas para crear un hogar acogedor</p>
+                    </div>
+                    <span class="category-count">2000+ productos</span>
+                </a>
+                <a href="#belleza" class="category-item">
+                    <img src="https://res.cloudinary.com/dfnm112ae/image/upload/v1723070414/SIMAN/zzndjtez89syxchklyqj.jpg" alt="Belleza" class="category-image">
+                    <div class="category-overlay">
+                        <h3 class="category-title">Belleza</h3>
+                        <p class="category-description">Productos de belleza y cuidado personal de primera calidad</p>
+                    </div>
+                    <span class="category-count">1200+ productos</span>
+                </a>
+                <a href="#deportes" class="category-item">
+                    <img src="https://res.cloudinary.com/dfnm112ae/image/upload/v1723070414/SIMAN/fkc4qgv3bxpwq7dd1iqi.webp" alt="Deportes" class="category-image">
+                    <div class="category-overlay">
+                        <h3 class="category-title">Deportes</h3>
+                        <p class="category-description">Equipamiento y ropa deportiva para todos los niveles</p>
+                    </div>
+                    <span class="category-count">600+ productos</span>
+                </a>
+                <a href="#juguetes" class="category-item">
+                    <img src="https://res.cloudinary.com/dfnm112ae/image/upload/v1723070415/SIMAN/c4tt8digunj0hix22ddb.webp" alt="Juguetes" class="category-image">
+                    <div class="category-overlay">
+                        <h3 class="category-title">Juguetes</h3>
+                        <p class="category-description">Diversión para todas las edades</p>
+                    </div>
+                    <span class="category-count">900+ productos</span>
+                </a>
+            </div>
+
+            <a href="#mas-categorias" class="load-more">Ver más categorías</a>
+        </div>
+
+        <section class="newsletter">
+            <h3>Mantente al día con nuestras novedades</h3>
+            <p>Suscríbete para recibir ofertas exclusivas y ser el primero en conocer nuestros nuevos productos.</p>
+            <form>
+                <input type="email" placeholder="Tu correo electrónico" required>
+                <button type="submit">Suscribirse</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Acerca de FuturoShop</h4>
+                <p>Tu destino para la tecnología del mañana, hoy.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+                    <li><a href="terminos-servicio.html">Términos de Servicio</a></li>
+                    <li><a href="devoluciones.html">Política de Devoluciones</a></li>
+                    <li><a href="envios.html">Información de Envíos</a></li>
+                    <li><a href="garantia.html">Garantía</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Atención al Cliente</h4>
+                <ul>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="faq.html">Preguntas Frecuentes</a></li>
+                    <li><a href="soporte.html">Soporte Técnico</a></li>
+                    <li><a href="reclamos.html">Reclamos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Síguenos</h4>
+                <div class="social-icons">
+                    <img class="navbar-icons" src="https://res.cloudinary.com/dfnm112ae/image/upload/v1723070414/SIMAN/qcyrsnkg1ibfvvpvmwsy.svg" alt="icono de whatsapp">
+                    <img class="navbar-icons" src="https://res.cloudinary.com/dfnm112ae/image/upload/v1723070414/SIMAN/tane2olyvxypk5zjj499.svg" alt="incono de instagram">
+                    <img class="navbar-icons" src="https://res.cloudinary.com/dfnm112ae/image/upload/v1723081583/SIMAN/h4ah5u1vveahbb0vq8es.svg" alt="incono de TIKTOK">
+                    <img class="navbar-icons" src="https://res.cloudinary.com/dfnm112ae/image/upload/v1723081583/SIMAN/sihhp8avrkqlwovuhxzp.svg" alt="incono de Facebook">
+
+                    
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2024 SIMAN EL SALVADOR. Kevin Adonay Chávez Ramírez.</p>
+    </footer>
+</body>
+</html>
